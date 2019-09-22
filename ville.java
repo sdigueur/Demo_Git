@@ -1,14 +1,15 @@
+import java.util.List;
+
 public class Ville {
-  private String nomVille;
-  private String nomPays;
+  private String nomVille;    
+  private String nomPays;   
   private int nbreHabitants;
   private char categorie;
 
   private List<String> sslList;
-
+  private List<String> sslList2;
 
   public Ville() {
-    System.out.println("Création d'une ville !");
     nomVille = "Inconnu";
     nomPays = "Inconnu";
     nbreHabitants = 0;
