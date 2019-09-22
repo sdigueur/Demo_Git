@@ -15,17 +15,12 @@ public class Ville {
   private Set<String> mairieSet;
   private Set<String> tahanSet;
 
-
-        public Ville() {
-          System.out.println("Création d'une ville !");
-          nomVille = "Inconnu";
-          nomPays = "Inconnu";
-          nbreHabitants = 0;
-          this.setCategorie();
-        }
-
   public void maVille() {
-              System.out.println("Création d'une ville !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    System.out.println(
+        "Création d'une ville !!ssssssssssssssssssssssssssss       sssssssssssssssss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   
+        !!ssssssssssssssssssssssssssss       sssssssssssssssss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+        !!ssssssssssssssssssssssssssss       sssssssssssssssss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
     nomVille = "Inconnu";
     nomPays = "Inconnu";
     nbreHabitants = 0;
@@ -88,7 +83,6 @@ public class Ville {
     nomPays = pPays;
     nbreHabitants = pNbre;
 
-
   }
 
   public String getNom() {
@@ -107,7 +101,6 @@ public class Ville {
     return categorie;
   }
 
-
   public void setNom(String pNom) {
     nomVille = pNom;
   }
@@ -123,12 +116,10 @@ public class Ville {
 
   private void setCategorie() {
 
-
     int bornesSuperieures[] = {1000, 1000, 10000, 100000, 500000, 1000000, 5000000, 10000000};
     char categories[] = {'?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
     int i = 0;
     while (i < bornesSuperieures.length && this.nbreHabitants > bornesSuperieures[i])
-
 
       i++;
 
@@ -144,6 +135,5 @@ public class Ville {
     return "\t" + this.nomVille + " est une ville de " + this.nomPays + ", elle comporte : "
         + this.nbreHabitants + " habitant(s) => elle est donc de catégorie : " + this.categorie;
   }
-
 
 }
