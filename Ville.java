@@ -8,7 +8,7 @@ public class Ville {
 
   private List<String> gouvList;
   private List<String> mairieList;
-
+  private List<String> tahanList;
 
   public Ville() {
     System.out.println("Création d'une ville !");
