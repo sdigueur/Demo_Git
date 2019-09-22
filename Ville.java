@@ -16,11 +16,7 @@ public class Ville {
   private Set<String> tahanSet;
 
   public void maVille() {
-    System.out.println(
-        "Création d'une ville !!ssssssssssssssssssssssssssss       sssssssssssssssss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   
-        !!ssssssssssssssssssssssssssss       sssssssssssssssss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
-        !!ssssssssssssssssssssssssssss       sssssssssssssssss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    System.out.println("aaa");
     nomVille = "Inconnu";
     nomPays = "Inconnu";
     nbreHabitants = 0;
